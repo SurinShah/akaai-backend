@@ -20,7 +20,7 @@ connectCloudinary();
 
 // Middlewares
 app.use(express.json());
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 
 // CORS Configuration
 const allowedOrigins = ['https://akaai.vercel.app/']; // Replace with your frontend's deployed URL
