@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 // CORS Configuration
-const allowedOrigins = ['https://your-frontend-url.vercel.app']; // Replace with your frontend's deployed URL
+const allowedOrigins = ['https://akaai.vercel.app/']; // Replace with your frontend's deployed URL
 app.use(cors({
     origin: allowedOrigins,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
